@@ -1,4 +1,4 @@
-{{#each checkboxes as |checkbox index|}}
+{{#each this.checkboxes as |checkbox index|}}
   {{#if (has-block)}}
     {{yield checkbox.option checkbox.isSelected index}}
   {{else}}
